@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background: #ffffff;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 120px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo img{
+    width: 170px;
+}
+
+.left ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.left ul li a{
+    text-decoration: none;
+    color: #18191F;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.left ul li a:hover{
+    color: green;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.login{
+    text-decoration: none;
+    color: green;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#Sign-up{
+    background: green;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .3s;
+}
+
+#Sign-up:hover{
+    background: green;
+}
+.hero{
+    width:100%;
+    height:550px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.hero-text{
+    width:40%;
+}
+.hero-text h1{
+    font-size:60px;
+    color:black;
+}
+.hero-text span{
+    color:green;
+}
+.hero-text p{
+    margin: 25px 0;
+    color: gray;
+    font-size: 20px;
+}
+
+.hero-text button{
+    padding: 14px 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: green;
+}
+.hero-image img{
+    width:500px;
+}
+.clients{
+    width: 100%;
+    padding: 50px 120px;
+    text-align: center;
+}
+
+.clients h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.clients p{
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 35px;
+}
+
+.clients img{
+    display: block;
+    margin: auto;
+    width: 900px;   
+}
+.Entire-community{
+    width:100%;
+    padding: 50px 120px;
+    text-align:center;
+}
+.Entire-community h2{
+    font-size: 36px;
+    margin-bottom:10px;
+}
+.Entire-community p{
+    font-size:16px;
+    color:grey;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.card{
+    width: 300px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px lightgray;
+}
+
+.card img{
+    width: 60px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.card h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.card p{
+    font-size: 16px;
+    color: gray;
+    line-height: 25px;
+}
+.pixelgrade{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 100px;
+}
+
+.pixel-image{
+    width: 45%;
+}
+
+.pixel-image img{
+    width: 100%;
+}
+
+.pixle-text{
+    width: 45%;
+}
+
+.pixle-text h2{
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.pixle-text p{
+    font-size: 16px;
+    color: gray;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.pixle-text button{
+    padding: 12px 25px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pixle-text button:hover{
+    background-color: darkgreen;
+}
+.business{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 100px;
+    background-color: whitesmoke;
+}
+
+.business-left{
+    width: 40%;
+}
+
+.business-left h2{
+    font-size: 40px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.business-left span{
+    color: green;
+}
+
+.business-left p{
+    font-size: 16px;
+    color: gray;
+}
+
+.business-right{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.box img{
+    width: 45px;
+    margin-right: 15px;
+}
+
+.box h3{
+    font-size: 28px;
+    color: black;
+}
+
+.box p{
+    font-size: 15px;
+    color: gray;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 100px;
+}
+
+.footer-site{
+    width: 45%;
+}
+
+.footer-site img{
+    width: 100%;
+}
+
+.footer-text{
+    width: 45%;
+}
+
+.footer-text h2{
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.footer-text p{
+    font-size: 16px;
+    color: gray;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.footer-text button{
+    padding: 12px 25px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-text button:hover{
+    background-color: darkgreen;
+}
+.smith{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 100px;
+    background-color: whitesmoke;
+}
+.smith{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 100px;
+    background-color: whitesmoke;
+}
+
+.smith-image{
+    width: 35%;
+}
+
+.smith-image img{
+    width: 100%;
+}
+
+.smith-text{
+    width: 60%;
+}
+
+.smith-text p{
+    font-size: 16px;
+    color: gray;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.smith-text h2{
+    font-size: 30px;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.company{
+    color: gray;
+    margin-bottom: 25px;
+}
+
+/* Frame 10 */
+.frame-10{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.frame-10 img{
+    width: 420px;
+}
+
+.frame-10 span{
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.marketing {
+    width: 100%;
+    padding: 70px 8%;
+    text-align: center;
+    background: white;
+}
+
+.marketing h2 {
+    font-size: 36px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.marketing-text {
+    max-width: 650px;
+    margin: 0 auto 50px;
+    color: gray;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.marketing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.marketing-card {
+    width: 350px;
+    position: relative;
+}
+
+.marketing-card img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.card-content {
+    width: 90%;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    bottom: -60px;
+    transform: translateX(-50%);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-content h3 {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.card-content a {
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-content a:hover {
+    color: darkgreen;
+}
+
+.marketing {
+    padding-bottom: 130px;
+}
+.demo {
+    width: 100%;
+    padding: 70px 8%;
+    text-align: center;
+    background: whitesmoke;
+}
+
+.demo h1 {
+    font-size: 48px;
+    color: black;
+    margin-bottom: 30px;
+    line-height: 1.3;
+}
+
+.demo button {
+    padding: 14px 30px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.demo button:hover {
+    background: darkgreen;
+}
+
+footer {
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 60px 8%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-box img {
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.footer-box h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.footer-box p {
+    margin: 5px 0;
+    color: lightgray;
+}
+
+.footer-box a {
+    text-decoration: none;
+    color: lightgray;
+    margin-bottom: 12px;
+}
+
+.footer-box a:hover {
+    color: white;
+}
+
+.Social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.Social-icons img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.email-box {
+    display: flex;
+    align-items: center;
+    background: gray;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.email-box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    flex: 1;
+}
+
+.email-box input::placeholder {
+    color: white;
+}
+
+.email-box i {
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.email-box span{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
